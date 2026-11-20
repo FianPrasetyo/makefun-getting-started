@@ -159,7 +159,10 @@ reject the entry on the server.
 
 ## Step 6 — Submit it
 
-Push your work, note the commit you want to enter, then submit from the kit:
+Before you submit, check your remaining quota for the day with `status` (below) — a
+rejected submission still counts against it, so the check in Step 5 is your cheap
+safety net. Then push your work, note the commit you want to enter, and submit from
+the kit:
 
 ```sh
 node cli/makefun.mjs submit --competition <bounty-slug> \
